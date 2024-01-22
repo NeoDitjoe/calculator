@@ -1,0 +1,19 @@
+.blockA {
+    background-color: rgb(123, 84, 20);
+    height: 10vh;
+    width: 100%;
+}
+
+.blockB {
+    background-color: rgb(184, 125, 30);
+    height: 10vh;
+    width: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    margin: 0;
+    padding: 0;
+    width: 550px;
+}

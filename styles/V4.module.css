@@ -1,0 +1,36 @@
+.buttons {
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    width: 280px;
+}
+
+.input {
+    border:/*  solid black 3px  */none;
+    width: 280px;
+    height: 50px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: end;
+    background-color: rgba(69, 69, 69, 0);
+}
+
+.resultsBox {
+    height: 3vh; 
+    width: 280px;   
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    margin-top: 10px; 
+    color: gray;
+} 
+.submit{
+    display: none;
+}
+
+.main{
+    background-color: rgba(69, 69, 69, 0.071);
+    width: 285px;
+    border-radius: 10px;
+}

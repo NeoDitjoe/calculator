@@ -1,0 +1,87 @@
+/* .clock{
+    margin: 20px;
+    height: 550px;
+    width: 550px;
+    background-color: white;
+    border-radius: 50%;
+} */
+
+.main{
+    background-color: rgba(205, 204, 204, 0.605);
+    height: 90vh;
+    padding: 40px;
+    text-align: center;
+
+    /* background-color: white;
+    animation-name: flipSeconds;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+}
+.ul {
+    list-style: none;
+}
+
+.digital{
+    display: flex;
+    flex-direction: row;
+}
+
+.hour {
+    font-size: 200px;
+}
+
+.minutes{
+    font-size: 150px;
+}
+
+@keyframes flipSeconds{
+    /* 0%{
+        background-color: rgb(241, 0, 0);
+    }
+
+    25%{
+        background-color: green;
+        transform: rotateX(180deg);
+    }
+    50%{
+        transform: rotateX(360deg);
+    }
+    75%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    } */
+
+    from{
+        transform: rotateX(0);
+    }
+    to{
+        transform: rotateX(180deg);
+    }
+}
+
+.seconds{
+    font-size: 80px;
+    margin-bottom: 0px;
+
+    /* background-color: white;
+    animation-name: flipSeconds;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+}
+
+.seconds2{
+    background-color: white;
+    animation-name: flipSeconds;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+

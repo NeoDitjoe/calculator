@@ -1,0 +1,12 @@
+.background{
+  height: 95vh;
+  /* background: url('https://images.pexels.com/photos/9986229/pexels-photo-9986229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+  background-size: cover;
+  background-position-y: -100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
