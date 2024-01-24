@@ -11,9 +11,9 @@ export default function Wrapper({Children}){
                 <Link href={'/calculatorV2'}>CalculatorV2</Link>
                 <Link href={'/calculatorV3'}>CalculatorV3</Link>
                 <Link href={'/calculatorV4'}>CalculatorV4</Link>
-                <Link href={'/whatisTheTime'}>WhatisTheTime</Link>
+                {/* <Link href={'/whatisTheTime'}>WhatisTheTime</Link>
                 <Link href={'/chess'}>Chess</Link> 
-                <Link href={'/puzzle'}>Puzzle</Link> 
+                <Link href={'/puzzle'}>Puzzle</Link>  */}
             </nav>
 
             {Children}
